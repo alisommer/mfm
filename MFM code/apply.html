@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Morgantown Farmers Market</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/text.css" rel="stylesheet" type="text/css">
+  <link href="css/960.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="images/favicon.ico" rel="icon" type="image/ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container_12">
+    <nav class="grid_12">
+      <ul class="primary-nav">
+        <li class="logo"><a href="index.html"><img src="images/logo.png" alt="Carrot, fork, and spoon logo"></a></li>
+        <li class="nav1"><a href="about.html">About Us</a></li>
+        <li class="nav1"><a href="involved.html">Get Involved</a></li>
+        <li class="nav1"><a href="know.html">In the Know</a></li>
+        <li class="nav1"><a href="vendors.html"><span>Vendors</span></a></li>
+        <li class="nav1"><a href="resources.html">Resources</a></li>
+      </ul>
+      <ul class="secondary-nav">
+        <li><a href="vendors.html">Current Vendors</a></li>
+        <li><a href="vendors.html">New Vendors</a></li>
+        <li><a href="apply.html"><span>Application</span></a></li>
+      </ul>
+    </nav>
+
+    <aside class="grid_1">
+      <ul>
+        <li><a href="https://www.instagram.com/explore/tags/morgantownfarmersmarket/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.facebook.com/MorgantownFarmersMarket/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/morgantown-farmers%27-market" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=ESIM0Dt_0BE" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/morgantownmkt?lang=en" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+      </ul>
+    </aside>
+
+    <article class="grid_12">
+      <div id="applypics">
+        <h1>Apply</h1>
+        <div id="right">
+          <img src="images/apply/applyright.png" alt="gray petal leaves">
+        </div>
+      </div>
+
+<div class="container">
+      <form class="alpha grid_5" action="query.php" method="post" id="applyformwhole">
+        <div class="grid_12" id="applyform">
+            <label class="grid_5" for="name">Name:</label>
+            <input class="grid_5" type="text" name="name" id="name">
+            <br>
+            <label class="grid_5" for="applyemail">Email:</label>
+            <input class="grid_5" type="email" name="email" id="applyemail">
+            <br>
+            <label class="grid_5" for="tel">Tel:</label>
+            <input class="grid_5" type="tel" name="telephone" id="tel">
+            <br>
+
+            <label class="grid_5" for="address">Address</label>
+            <input class="grid_5" type="text" name="address" id="address">
+            <br>
+
+            <label class="grid_5" for="city">City</label>
+            <input class="grid_5" type="text" name="city" id="city">
+            <br><br>
+
+            <select class="grid_5" id="state">
+              <option>State</option>
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Deleware</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Oregon</option>
+              <option>Pennsylvania</option>
+              <option>Rhode Island</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>
+            </select>
+
+            <label class="grid_5" for="zip">Zip</label>
+            <input class="grid_5" type="text" name="zip" id="zip">
+          </div>
+
+
+
+            <label class="grid_5" for="items">Items Selling:</label>
+            <br>
+            <textarea class="alpha grid_5" name="items" cols="50" rows="20" id="items"></textarea>
+            <br>
+
+
+            <fieldset class="alpha grid_5">
+            <legend class="alpha grid_5"></legend>
+            <input type="radio" value="newmemb" name="memb" id="newmemb">
+            <label for="newmemb">New Member</label>
+            <br>
+            <input type="radio" value="Returning Member" name="memb" id="returnmemb">
+            <label for="returnmemb">Returning Member</label>
+          </fieldset>
+
+
+              <button class="alpha grid_2" type="submit" id="submit">Submit</button>
+          </form>
+        </div>
+</article>
+
+<footer>
+      <hr>
+  <div id="navigate" class="grid_4">
+    <h4>Navigate</h4>
+    <ul class="grid_1.5">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="involved.html">Get Involved</a></li>
+    </ul>
+    <ul class="grid_1.5">
+      <li><a href="know.html">In the Know</a></li>
+      <li><a href="vendors.html">Vendors</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </div>
+
+  <div id="center" class="grid_4">
+    <a href="index.html"><img src="images/logo.png" alt="Carrot, fork, and spoon logo"></a>
+    <p>415 Spruce Street<br>
+      Morgantown, WV 26505<br>
+      Saturdays: May through November 8:30AM-Noon</p>
+  </div>
+
+  <div id="newsletter" class="grid_4">
+    <h4>Join Our Newsletter</h4>
+    <form>
+      <input type="email" placeholder="Email"><br>
+    </form>
+    <div id="email">
+      <button class="grid_1" type="submit" id="submitemail">Submit</button>
+    </div>
+  </div>
+</footer>
+  </div>
+  <!--this closes container-->
+</body>
+</html>
